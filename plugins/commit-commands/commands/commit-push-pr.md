@@ -19,15 +19,19 @@ Based on the above changes:
 4. Create a pull request using `gh pr create`
 5. You have the capability to call multiple tools in a single response. You MUST do all of the above in a single message. Do not use any other tools or do anything else. Do not send any other text or messages besides these tool calls.
 
-When creating commits, follow Convential Commits format.
+When creating commits and PR titles, follow Conventional Commits format:
+- Use lowercase after prefix: `feat: add feature` not `feat: Add feature`
+- PR titles are validated by CI (PRs are squash-merged, so title becomes commit message)
+
 You must use the following prefixes:
 | Prefix | Group |
 |----------|---------------|
 | feat | Features |
 | fix | Bug Fixes |
-| doc | Documentation |
+| docs | Documentation |
 | perf | Performance |
 | refactor | Refactoring |
 | style | Style |
 | test | Testing |
 | chore | Miscellaneous |
+| ci | CI/CD |
