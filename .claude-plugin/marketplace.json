@@ -18,6 +18,17 @@
       },
       "source": "./plugins/commit-commands",
       "category": "productivity"
+    },
+    {
+      "name": "test-speed-optimizer",
+      "description": "Optimize pytest test suite speed using proven techniques including environment timeouts, database fixtures, lazy imports, and more",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thomas Friedel",
+        "email": "thomas.friedel@gmail.com"
+      },
+      "source": "./plugins/test-speed-optimizer",
+      "category": "testing"
     }
   ]
 }
