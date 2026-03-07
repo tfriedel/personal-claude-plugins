@@ -14,7 +14,9 @@ Use this **only** after the built-in WebFetch tool has failed with:
 - 403 Forbidden
 - Access Denied
 - Cloudflare block pages
+- "Claude Code is unable to fetch ..."
 - Any other indication the site is refusing the request
+
 
 Always try WebFetch first. This is the backup.
 
@@ -49,4 +51,4 @@ gemini -p "Fetch this web page and return its content as markdown: <url>"
 - The URL must be included directly in the prompt string passed to `gemini -p`
 - Output may be lengthy; parse/summarize as needed for the user
 - This tool is read-only -- it does not modify any files
-- If gemini-cli is not installed, inform the user they need to install it (`npm install -g @anthropic-ai/gemini-cli` or similar)
+- The CLI command is `gemini` (not `gemini-cli`). If it's not installed, inform the user they need to install it (`npm install -g @anthropic-ai/gemini-cli`)
