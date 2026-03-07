@@ -40,6 +40,17 @@
       },
       "source": "./plugins/test-speed-optimizer",
       "category": "testing"
+    },
+    {
+      "name": "mcp-web-fetch",
+      "description": "Fallback web fetcher using gemini-cli for sites that block Claude's built-in WebFetch (403 errors)",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thomas Friedel",
+        "email": "thomas.friedel@gmail.com"
+      },
+      "source": "./plugins/mcp-web-fetch",
+      "category": "productivity"
     }
   ]
 }
