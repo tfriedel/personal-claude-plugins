@@ -51,6 +51,17 @@
       },
       "source": "./plugins/mcp-web-fetch",
       "category": "productivity"
+    },
+    {
+      "name": "file-search",
+      "description": "Instantly find files and folders anywhere on a Windows machine by name, extension, path, size, or date using Everything's es.exe, auto-starting the Everything index when it isn't running",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thomas Friedel",
+        "email": "thomas.friedel@gmail.com"
+      },
+      "source": "./plugins/file-search",
+      "category": "productivity"
     }
   ]
 }

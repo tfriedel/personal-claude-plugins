@@ -9,6 +9,7 @@ A [Claude Code plugin marketplace](https://docs.claude.com/en/docs/claude-code/p
 | [commit-commands](./plugins/commit-commands/) | `/commit`, `/commit-push-pr`, `/clean_gone` — git workflow automation |
 | [code-review](./plugins/code-review/) | `/code-review` — automated PR review with confidence-based scoring |
 | [test-speed-optimizer](./plugins/test-speed-optimizer/) | Optimize pytest test suite speed using proven techniques |
+| [file-search](./plugins/file-search/) | Instantly find files anywhere on Windows via Everything (`es.exe`), auto-starting the index if it's down |
 
 ## Installation
 
